@@ -3,7 +3,7 @@
 # 完全支持Kangle EP主机系统并兼容基于Centos6.x系统的其他Web面板 #
 # KOS云防C可防御众多的恶意IP CC攻击、轮循多IP CC攻击、代理IP、CC攻击 #
 # 每日自动更新KOS云黑名单IP列表，一次安装，永久生效。非常适合IDC主机提供商和Kangle站长使用 #
-ipset add kos 223.104.212.243
+ipset add kos 223.104.212.243 
 ipset add kos 45.199.152.189
 ipset add kos 82.207.50.126
 ipset add kos 191.241.228.74
