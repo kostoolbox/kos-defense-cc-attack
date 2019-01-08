@@ -13265,16 +13265,3 @@ ipset add kos 117.145.179.18
 ipset add kos 223.114.23.124
 ipset add kos 195.178.33.86
 ipset add kos 103.47.66.174
-if [ ! -d "/vhs/kangle/var" ];then
-echo "未检测到Kangle EP系统，暂不分析日志"
-else
-urlroot="http://kos.f2k.pub"
-yum install ftp -y
-mkdir -p /home/ftp/k/kos
-cd /home/ftp/k/kos
-wget -q $urlroot/Linux/cc/kos-put-EPlog.sh -O kos-put-EPlog.sh
-sh kos-put-EPlog.sh
-rm -rf /etc/localtime
-ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-rm -rf www.qwblog.cn_kos-blackip.sh
-fi
