@@ -9,4 +9,6 @@ KOS云防C，是KOS工具箱推出的一款精准防C的免费服务。它完全
 
 KOS云防C恶意CC IP黑名单内容共享 https://kos.qwblog.cn/kos-defense-cc-attack/#api
 获取最新列表调用时可增加当前唯一的 ?date-time
-Linux系统本地随机生成字符串 date +%s%N echo $RANDOM cat /dev/urandom | head -n 10 | cksum | awk -F ' ' '{print $1}'
+Linux系统本地随机生成字符串 date +%s%N echo 
+$RANDOM 
+cat /dev/urandom | head -n 10 | cksum | awk -F ' ' '{print $1}'
