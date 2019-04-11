@@ -1,6 +1,8 @@
 # kos-defense-cc-attack
 KOS云防C，是KOS工具箱推出的一款精准防C的免费服务。它完全支持Kangle EP主机系统并兼容基于Centos 6.x系统的其他Web面板。KOS云防C可防御众多的恶意IP CC攻击、轮循多IP CC攻击、代理IP CC攻击。每日自动更新KOS云黑名单IP列表，一次安装，永久生效。
 
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a> [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+
 安装启动帮助KOS云防C https://kos.qwblog.cn/kos-defense-cc-attack/
 
 用户体验计划访问当前项目根目录 https://raw.githubusercontent.com/kostool/kos-defense-cc-attack/master/User-experience-and-log-sharing-plan.txt
