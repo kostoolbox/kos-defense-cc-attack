@@ -1,5 +1,9 @@
-# kos-defense-cc-attack
-KOS云防C，是KOS工具箱推出的一款精准防C的免费服务。它完全支持Kangle EP主机系统并兼容基于Centos 6.x系统的其他Web面板。KOS云防C可防御众多的恶意IP CC攻击、轮循多IP CC攻击、代理IP CC攻击。每日自动更新KOS云黑名单IP列表，一次安装，永久生效。
+# kos-defense-cc-attack<br>
+<p>KOS工具箱团队免费分享&维护。使用与否是你的自由，不愿招来“顾客式”用户，拒绝无脑喷子！</p>
+<p>通过自研KOS云端-V2分析系统，获得基于当前用户圈儿恶意IP列表并存储；每小时更新至Light客户端，并通过IPTABLES扩展来哈希存储、极速读取；客户端MAIN组件秒级识别CC，并作出防御反应。适合防御大量代理IP攻击，缓解CC攻击效果显著！<br>
+支持Kangle、宝塔、AMH、Lnmp、cPanel等使用；支持Linux Centos系列</p>
+
+KOS云防C功能集成在KOS工具箱之中。复制SSH命令、运行KOS工具箱脚本，选择子菜单[4]项进行安装、启动（<a href="https://kostool.cn/screenshot/20181226190318.jpg" target="_blank"><i class="fa fa-file-image-o"></i>&nbsp;查看截图</a>）
 
 安装启动帮助KOS云防C https://kos.qwblog.cn/kos-defense-cc-attack/
 
